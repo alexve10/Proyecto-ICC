@@ -1,0 +1,16 @@
+N=indiceMasaCorporal(peso,talla)
+contador=0
+
+if 18.5<=N<=24.9
+    print("Gracias por su visita. Tiene un IMC saludable y este es de:",int(indiceMasaCorporal(peso,talla)))
+
+elif 25<=N<=29.9
+    print("Usted tiene sobrepeso, su IMC es:",int(indiceMasaCorporal(peso,talla)))
+    print("Una dieta ideal para usted seria:")
+    for t in dieta_sobrepeso:
+        print(" ")
+        print(t)
+    dia=int(input("Inserte dia de la rutina:"))
+    if dia>=6:
+        print("Inserte su dia de rutina")
+        dia=int(input("inserte dia de rutina:"))
