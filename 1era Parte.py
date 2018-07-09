@@ -1,3 +1,4 @@
+import random
 brazos=["triceps","biceps","planchas","barras","levantar pesas"]
 piernas=["pantorrillas", "muslos", "sentadillas","polichinelas"]
 torso=["planchas","abdominales","pectorales","salto de tijera", "face pull"]
